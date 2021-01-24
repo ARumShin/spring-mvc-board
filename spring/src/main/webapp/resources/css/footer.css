@@ -1,0 +1,46 @@
+footer {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    min-width: 1110px;
+    background: rgba(0,0,0,0.8);
+    border-top: 1px solid #a0a0a0;
+}
+.footer {
+    width: 1110px;
+    height: 80px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+}
+.f_logo_wrap {
+    float: left;
+    margin-top: 30px;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.footer_wrap {
+    text-align: left;
+    width: 80%;
+    height: 60px;
+    padding: 25px 0;
+    float: right;
+}
+.footer span {
+    font-size: 12px;
+    color: #fff;
+}
+.btn_top {
+    text-align: center;
+    line-height: 20px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 40px;
+    height: 40px;
+    background-color: #fff;
+    font-size: 12px;
+    font-family: NanumGothicBold;
+}

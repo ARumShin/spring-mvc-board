@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+  
+<mapper namespace="org.spring.mapper.BoardMapper">
+
+	<select id="getBoardList" resultType="org.spring.domain.BoardVO">
+		<![CDATA[
+			select * from board order by authority desc, num desc;
+		]]>
+	</select>
+	
+	<select id="getListCount" resultType="int">
+		select count(*) as count from board where deleteyn='N'
+	</select>
+	
+</mapper>
